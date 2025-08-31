@@ -3,8 +3,8 @@
 A powerful **Node.js CLI tool** to analyze dependencies in your project.  
 Find **unused packages** and detect **deprecated dependencies** to **reduce bundle size** and keep your project healthy.
 
-[npm version](https://www.npmjs.com/package/depcheck-cli)
-[npm downloads](https://www.npmjs.com/package/depcheck-cli)
+[npm version](https://www.npmjs.com/package/depcheck-cli) \
+[npm downloads](https://www.npmjs.com/package/depcheck-cli) \
 [license](LICENSE)
 
 ---
