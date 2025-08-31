@@ -1,16 +1,12 @@
-Got it. Since your CLI currently only supports **unused** and **deprecated** detection, I’ll rewrite the full **SEO-friendly README** into a single Markdown file with only those two features included (no "largest" or "cleanup" for now).
-
-Here’s the final version you can directly save as `README.md`:
-
 ````markdown
 # depcheck-cli
 
 A powerful **Node.js CLI tool** to analyze dependencies in your project.  
 Find **unused packages** and detect **deprecated dependencies** to **reduce bundle size** and keep your project healthy.
 
-[![npm version](https://img.shields.io/npm/v/depcheck-cli.svg)](https://www.npmjs.com/package/depcheck-cli)
-[![npm downloads](https://img.shields.io/npm/dm/depcheck-cli.svg)](https://www.npmjs.com/package/depcheck-cli)
-[![license](https://img.shields.io/github/license/masterdevsabith/depcheck-cli.svg)](LICENSE)
+[npm version](https://img.shields.io/npm/v/depcheck-cli.svg)(https://www.npmjs.com/package/depcheck-cli)
+[npm downloads(https://img.shields.io/npm/dm/depcheck-cli.svg)(https://www.npmjs.com/package/depcheck-cli)
+[license](https://img.shields.io/github/license/masterdevsabith/depcheck-cli.svg)(LICENSE)
 
 ---
 
