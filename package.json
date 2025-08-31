@@ -3,21 +3,44 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "depcheck-cli": "./bin/index.js"
   },
+  "description": "CLI tool for Node.js projects to analyze dependencies: find unused packages, detect deprecated dependencies, and identify largest modules to reduce bundle size and improve performance.",
   "keywords": [
     "cli",
-    "dependencies",
-    "unused",
-    "deprecated"
+    "node-cli",
+    "dependency-checker",
+    "unused-dependencies",
+    "remove-unused-packages",
+    "deprecated-packages",
+    "outdated-dependencies",
+    "npm-audit",
+    "dependency-analyzer",
+    "nodejs-optimizer",
+    "package-cleaner",
+    "reduce-bundle-size",
+    "dependency-health",
+    "project-maintenance",
+    "npm-cli-tool",
+    "optimize-node-modules",
+    "javascript-cli",
+    "dependency-management",
+    "node-project-health"
   ],
   "author": "masterdevsabith",
   "license": "MIT",
-  "description": "A CLI to check unused and deprecated dependencies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masterdevsabith/depcheck-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masterdevsabith/depcheck-cli/issues"
+  },
+  "homepage": "https://github.com/masterdevsabith/depcheck-cli#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "chalk": "^5.6.0",
     "commander": "^14.0.0",
