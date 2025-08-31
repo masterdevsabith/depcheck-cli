@@ -12,6 +12,21 @@ module.exports = async function checkUnused() {
 
   for (let file of files) {
     const content = fs.readFileSync(file, "utf-8");
-    declaredDeps.forEach((dep) => {});
+    declaredDeps.forEach((dep) => {
+      if (
+        content.includes(`require("${dep}`) ||
+        content.includes(`from "${dep}`)
+      ) {
+        usedDeps.add(dep);
+      }
+    });
+  }
+
+  const unused = declaredDeps.filter((dep) => !usedDeps.has(dep));
+  if (unused.length === 0) {
+    console.log(chalk.green("No unused dependencies found."));
+  } else {
+    console.log(chalk.yellow("Unused dependencies:"));
+    unused.forEach((dep) => console.log(` - ${dep}`));
   }
 };
