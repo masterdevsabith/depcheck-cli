@@ -11,6 +11,8 @@ export default async function checkDeprecated() {
       const info = await fetch.json(dep);
       if (info.deprecated) {
         console.log(chalk.red(`⚠ ${dep}: ${info.deprecated}`));
+      } else {
+        console.log(chalk.green(`✓ ${dep} is not deprecated`));
       }
     } catch (err) {
       console.log(chalk.gray(`Could not fetch ${dep}`));
