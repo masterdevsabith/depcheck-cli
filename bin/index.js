@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const { program } = require("commander");
-const checkUnused = require("../src/unused");
-const checkDeprecated = require("../src/deprecated");
+import { program } from "commander";
+import checkUnused from "../src/unused.js";
+import checkDeprecated from "../src/deprecated.js";
 
 program
   .name("depcheck-cli")
