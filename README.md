@@ -1,4 +1,3 @@
-````markdown
 # depcheck-cli
 
 A powerful **Node.js CLI tool** to analyze dependencies in your project.  
@@ -26,6 +25,7 @@ Install globally:
 ```sh
 npm install -g depcheck-cli
 ```
+
 ````
 
 Or use with `npx` (no install needed):
@@ -107,3 +107,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## ⭐ Support
 
 If you find `depcheck-cli` useful, consider giving it a ⭐ on [GitHub](https://github.com/masterdevsabith/depcheck-cli) and sharing it with your team.
+````
