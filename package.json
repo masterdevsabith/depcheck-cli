@@ -9,10 +9,15 @@
   "bin": {
     "depcheck-cli": "./bin/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cli",
+    "dependencies",
+    "unused",
+    "deprecated"
+  ],
+  "author": "masterdevsabith",
+  "license": "MIT",
+  "description": "A CLI to check unused and deprecated dependencies",
   "dependencies": {
     "chalk": "^5.6.0",
     "commander": "^14.0.0",
